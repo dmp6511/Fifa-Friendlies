@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "fifa-friendlies": "file:",
+    "nodemon": "^3.1.4"
+  },
+  "name": "fifa-friendlies",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.30.0"
+  },
+  "scripts": {
+    "prestest": "eslint .",
+    "start": "node ./src/app.js",
+    "test": "echo \"yarr this be a test for ye serva\" "
+  },
+  "author": "De'Andre Perry",
+  "license": "UNLICENSED",
+  "description": ""
+}
